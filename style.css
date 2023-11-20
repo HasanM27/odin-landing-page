@@ -111,3 +111,26 @@ button {
     border: 4px solid #3882f6;
     border-radius: 18px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 220px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotation {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
